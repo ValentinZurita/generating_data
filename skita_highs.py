@@ -37,7 +37,7 @@ plt.title('Temperaturas Maximas y Minimas del 2018', fontsize=24)
 plt.xlabel('', fontsize=16)
 plt.ylabel('Temperatura (F)', fontsize=16)
 plt.tick_params(axis='both', which='major', labelsize=16)
-fig.autofmt_xdate() # Dibuja las etiquetas del eje x en diagonal
+fig.autofmt_xdate()  # Dibuja las etiquetas del eje x en diagonal
 
 # Mostrar grafica.
 plt.show()
